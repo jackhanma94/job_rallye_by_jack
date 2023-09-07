@@ -290,6 +290,7 @@ local function OpenMenu()
             title = v.label,
             description = "sortir le :"..v.label.."",
             onSelect = function() TriggerServerEvent("testserverside", v)  end,
+            CreateThread(PositionGarageCheck),
             image = v.image,
         }
     end

@@ -1,7 +1,8 @@
 Config = {}
 
+
 Config.pose = {
-    mecano = vector3(2526.7954, 2013.1416, 21.0193),
+    mecano = vector3(2526.8909, 2012.0682, 21.0193),
     garage = vector3(2520.3162, 1997.3995, 19.9568),
     spawn = vector4(2514.4131, 1981.9545, 19.3937, 80.9985),
     delete = vector3(183.5920, 391.8256, 108.5391),
@@ -32,9 +33,9 @@ Vehicle = {
 }
 
 Config.blips = {
-    title = "course",
+    title = "course de rallye",
     colour = 38,
-    id = 402, ---https://docs.fivem.net/docs/game-references/blips/
+    id = 127, ---https://docs.fivem.net/docs/game-references/blips/
     x = 2522.6287, 
     y = 1993.9894, 
     z = 20.0373 
